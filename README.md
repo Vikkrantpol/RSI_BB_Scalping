@@ -12,25 +12,33 @@ The script (rsi_scalping_strategy_inr_15x_dynamic_capital_redacted.py) provided 
 
 #### 1. Equity Curve (Figure 1a):
 - Shows equity growth over time with cumulative trade counts on a secondary axis.
-- ![figure1a_equity_curve_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/12e79da6-c2b1-4b0a-818d-46c280273714)
+ ![figure1a_equity_curve_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/12e79da6-c2b1-4b0a-818d-46c280273714)
 
 
 
 
 #### 2. Drawdown (Figure 1b):
 - Displays drawdown percentage over time.
-- ![figure1b_drawdown_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/a01008d9-9472-440e-8082-ff16130d7281)
+ ![figure1b_drawdown_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/a01008d9-9472-440e-8082-ff16130d7281)
 
 
 
 #### 3. Monthly Performance (Figure 1c):
 - Shows cumulative monthly returns with trade counts.
-- File: figure1c_monthly_performance_7_5m_inr_15x_<capital>.png
+![figure1c_monthly_performance_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/479eda93-c41d-4e69-9b3b-506f5372ac71)
+
 
 
 #### 4. Price with Volume Overlay (Figure 1d):
 - Plots price with a volume overlay.
-- File: figure1d_price_volume_7_5m_inr_15x_<capital>.png
+![figure1d_price_volume_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/d298e1a4-7645-4231-aec1-db035eec0dfb)
+
+
+### 5. RSI and Bollinger Bands (Figure 2):
+
+Sample: sample_outputs/figure2_rsi_bollinger_combined_plot_7_5m_inr_15x_10m.png
+
+
 ### Technical Indicators:
 - RSI (Relative Strength Index) to detect overbought/oversold conditions.
 - Bollinger Bands to identify price volatility and potential reversals.
@@ -132,18 +140,6 @@ The script was run with an initial capital of ₹10,000,000 (10m) and 15x levera
 - Profit Factor: 1.9834
 
 
-
-Sample Visualizations
-Below are sample outputs for initial_capital = 10000000:
-
-Equity Curve (Figure 1a):
-
-Sample: sample_outputs/figure1a_equity_curve_7_5m_inr_15x_10m.png
-
-
-RSI and Bollinger Bands (Figure 2):
-
-Sample: sample_outputs/figure2_rsi_bollinger_combined_plot_7_5m_inr_15x_10m.png
 
 
 
