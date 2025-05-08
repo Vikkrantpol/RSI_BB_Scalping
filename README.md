@@ -8,6 +8,27 @@ The script (rsi_scalping_strategy_inr_15x_dynamic_capital_redacted.py) provided 
 
 ## Features
 
+### Plots (Output Results):
+
+#### 1. Equity Curve (Figure 1a):
+- Shows equity growth over time with cumulative trade counts on a secondary axis.
+![figure1a_equity_curve_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/6845c48b-20c1-463f-bf9b-bf6177c811a0)
+
+
+
+#### 2. Drawdown (Figure 1b):
+- Displays drawdown percentage over time.
+- File: figure1b_drawdown_7_5m_inr_15x_<capital>.png
+
+
+#### 3. Monthly Performance (Figure 1c):
+- Shows cumulative monthly returns with trade counts.
+- File: figure1c_monthly_performance_7_5m_inr_15x_<capital>.png
+
+
+#### 4. Price with Volume Overlay (Figure 1d):
+- Plots price with a volume overlay.
+- File: figure1d_price_volume_7_5m_inr_15x_<capital>.png
 ### Technical Indicators:
 - RSI (Relative Strength Index) to detect overbought/oversold conditions.
 - Bollinger Bands to identify price volatility and potential reversals.
@@ -53,27 +74,7 @@ The script generates the following outputs in the rsi_scalping_strategy_outputs/
 - Sample: sample_outputs/rsi_scalping_trades_7_5m_inr_15x_10m_with_combined_rsi_bb_plot.csv
 
 
-### Plots:
 
-#### 1. Equity Curve (Figure 1a):
-- Shows equity growth over time with cumulative trade counts on a secondary axis.
-- File: figure1a_equity_curve_7_5m_inr_15x_<capital>.png
-- Sample: sample_outputs/figure1a_equity_curve_7_5m_inr_15x_10m.png
-
-
-#### 2. Drawdown (Figure 1b):
-- Displays drawdown percentage over time.
-- File: figure1b_drawdown_7_5m_inr_15x_<capital>.png
-
-
-#### 3. Monthly Performance (Figure 1c):
-- Shows cumulative monthly returns with trade counts.
-- File: figure1c_monthly_performance_7_5m_inr_15x_<capital>.png
-
-
-#### 4. Price with Volume Overlay (Figure 1d):
-- Plots price with a volume overlay.
-- File: figure1d_price_volume_7_5m_inr_15x_<capital>.png
 
 
 #### 5. RSI and Bollinger Bands (Figure 2):
