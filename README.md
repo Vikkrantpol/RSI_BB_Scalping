@@ -12,14 +12,15 @@ The script (rsi_scalping_strategy_inr_15x_dynamic_capital_redacted.py) provided 
 
 #### 1. Equity Curve (Figure 1a):
 - Shows equity growth over time with cumulative trade counts on a secondary axis.
-![figure1a_equity_curve_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/12e79da6-c2b1-4b0a-818d-46c280273714)
+- ![figure1a_equity_curve_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/12e79da6-c2b1-4b0a-818d-46c280273714)
 
 
 
 
 #### 2. Drawdown (Figure 1b):
 - Displays drawdown percentage over time.
-- File: figure1b_drawdown_7_5m_inr_15x_<capital>.png
+- ![figure1b_drawdown_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/a01008d9-9472-440e-8082-ff16130d7281)
+
 
 
 #### 3. Monthly Performance (Figure 1c):
