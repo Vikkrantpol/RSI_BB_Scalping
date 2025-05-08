@@ -20,46 +20,45 @@ The script (rsi_scalping_strategy_inr_15x_dynamic_capital_redacted.py) provided 
 - Supports leveraged trading with liquidation checks.
 
 
-Risk Management:
-Configurable risk per trade and maximum position sizes.
-Limits concurrent trades to control exposure.
-Skips trades during extreme price movements or low volatility.
+### Risk Management:
+- Configurable risk per trade and maximum position sizes.
+- Limits concurrent trades to control exposure.
+- Skips trades during extreme price movements or low volatility.
+
+### Performance Metrics:
+- Computes total return, win rate, max drawdown, Sharpe ratio, Sortino ratio, and profit factor.
+- Provides monthly performance breakdowns and trade statistics.
 
 
-Performance Metrics:
-Computes total return, win rate, max drawdown, Sharpe ratio, Sortino ratio, and profit factor.
-Provides monthly performance breakdowns and trade statistics.
+### Visualization:
+- Equity curve with cumulative trade counts.
+- Drawdown over time.
+- Monthly performance with trade frequency.
+- Price and volume overlay.
+- Combined RSI and Bollinger Bands plot (trade markers disabled).
 
 
-Visualization:
-Equity curve with cumulative trade counts.
-Drawdown over time.
-Monthly performance with trade frequency.
-Price and volume overlay.
-Combined RSI and Bollinger Bands plot (trade markers disabled).
-
-
-Dynamic Capital Support:
-Adjusts file names and visualizations based on initial capital (e.g., 10m for ₹10,000,000).
+### Dynamic Capital Support:
+- Adjusts file names and visualizations based on initial capital (e.g., 10m for ₹10,000,000).
 
 
 
-Outputs
+## Outputs
 The script generates the following outputs in the rsi_scalping_strategy_outputs/ directory:
 
-Trades CSV:
+### Trades CSV:
 
-File: rsi_scalping_trades_7_5m_inr_15x_<capital>_with_combined_rsi_bb_plot.csv
-Contains trade details: entry/exit times, prices, position sizes, profits, and durations.
-Sample: sample_outputs/rsi_scalping_trades_7_5m_inr_15x_10m_with_combined_rsi_bb_plot.csv
+- File: rsi_scalping_trades_7_5m_inr_15x_<capital>_with_combined_rsi_bb_plot.csv
+- Contains trade details: entry/exit times, prices, position sizes, profits, and durations.
+- Sample: sample_outputs/rsi_scalping_trades_7_5m_inr_15x_10m_with_combined_rsi_bb_plot.csv
 
 
-Plots:
+### Plots:
 
-Equity Curve (Figure 1a):
-Shows equity growth over time with cumulative trade counts on a secondary axis.
-File: figure1a_equity_curve_7_5m_inr_15x_<capital>.png
-Sample: sample_outputs/figure1a_equity_curve_7_5m_inr_15x_10m.png
+- 1. Equity Curve (Figure 1a):
+-- Shows equity growth over time with cumulative trade counts on a secondary axis.
+-- File: figure1a_equity_curve_7_5m_inr_15x_<capital>.png
+-- Sample: sample_outputs/figure1a_equity_curve_7_5m_inr_15x_10m.png
 
 
 Drawdown (Figure 1b):
