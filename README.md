@@ -1,21 +1,23 @@
 # RSI_BB_Scalping
 
-RSI Scalping Strategy
+# RSI Scalping Strategy
 This project implements a scalping strategy using RSI and Bollinger Bands on 5-minute candlestick data. It combines technical indicators, leveraged trading, and risk management to generate and evaluate trading signals. The strategy's performance is analyzed through detailed metrics and visualizations. This repository is shared solely for informational and demonstration purposes to showcase the project's structure, outputs, and results.
-About the Script
+
+## About the Script
 The script (rsi_scalping_strategy_inr_15x_dynamic_capital_redacted.py) provided in this repository is a redacted version of the original code. Sensitive components, such as the proprietary trading logic, specific parameter values (e.g., RSI thresholds, leverage settings), and detailed calculations, have been redacted to protect intellectual property and prevent misuse. The redacted script retains the overall structure to demonstrate the workflow—data loading, indicator calculation, backtesting, and visualization—while ensuring that critical strategy details remain confidential. The results and outputs shared below were generated using the full, unredacted script. This project is shared solely for informational and demonstration purposes. Any use, replication, or derivation of the strategy, including for personal, educational, commercial, or financial purposes, is strictly prohibited, as outlined in the LICENSE file.
-Features
 
-Technical Indicators:
-RSI (Relative Strength Index) to detect overbought/oversold conditions.
-Bollinger Bands to identify price volatility and potential reversals.
-ATR (Average True Range) for volatility-based trade filtering and trailing stops.
+## Features
+
+### Technical Indicators:
+- RSI (Relative Strength Index) to detect overbought/oversold conditions.
+- Bollinger Bands to identify price volatility and potential reversals.
+- ATR (Average True Range) for volatility-based trade filtering and trailing stops.
 
 
-Trading Logic:
-Enters trades based on RSI thresholds and Bollinger Band positions.
-Exits via stop-loss, take-profit, or ATR-based trailing stops.
-Supports leveraged trading with liquidation checks.
+### Trading Logic:
+- Enters trades based on RSI thresholds and Bollinger Band positions.
+- Exits via stop-loss, take-profit, or ATR-based trailing stops.
+- Supports leveraged trading with liquidation checks.
 
 
 Risk Management:
