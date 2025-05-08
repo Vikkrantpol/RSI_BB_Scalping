@@ -39,6 +39,8 @@ The script (rsi_scalping_strategy_inr_15x_dynamic_capital_redacted.py) provided 
 - Plot of RSI and Bollinger Band with price movement of the Bitcoin over 5 min tf.
   ![figure2_rsi_bollinger_combined_plot_7_5m_inr_15x_10m](https://github.com/user-attachments/assets/7ea55d3b-749e-4494-9489-f717fb328547)
 
+#### Detailed View of the above plot of the RSI and Bollinger Band:
+![RSI and BB](https://github.com/user-attachments/assets/85e2021f-4904-4282-a8a4-1992f532cef4)
 
 
 ### Technical Indicators:
