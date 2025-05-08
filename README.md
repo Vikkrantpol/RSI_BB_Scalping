@@ -55,31 +55,31 @@ The script generates the following outputs in the rsi_scalping_strategy_outputs/
 
 ### Plots:
 
-- 1. Equity Curve (Figure 1a):
+#### 1. Equity Curve (Figure 1a):
 - Shows equity growth over time with cumulative trade counts on a secondary axis.
 - File: figure1a_equity_curve_7_5m_inr_15x_<capital>.png
 - Sample: sample_outputs/figure1a_equity_curve_7_5m_inr_15x_10m.png
 
 
-- 2. Drawdown (Figure 1b):
+#### 2. Drawdown (Figure 1b):
 - Displays drawdown percentage over time.
 - File: figure1b_drawdown_7_5m_inr_15x_<capital>.png
 
 
-Monthly Performance (Figure 1c):
-Shows cumulative monthly returns with trade counts.
-File: figure1c_monthly_performance_7_5m_inr_15x_<capital>.png
+#### 3. Monthly Performance (Figure 1c):
+- Shows cumulative monthly returns with trade counts.
+- File: figure1c_monthly_performance_7_5m_inr_15x_<capital>.png
 
 
-Price with Volume Overlay (Figure 1d):
-Plots price with a volume overlay.
-File: figure1d_price_volume_7_5m_inr_15x_<capital>.png
+#### 4. Price with Volume Overlay (Figure 1d):
+- Plots price with a volume overlay.
+- File: figure1d_price_volume_7_5m_inr_15x_<capital>.png
 
 
-RSI and Bollinger Bands (Figure 2):
-Combines price with Bollinger Bands (top) and RSI (bottom).
-File: figure2_rsi_bollinger_combined_plot_7_5m_inr_15x_<capital>.png
-Sample: sample_outputs/figure2_rsi_bollinger_combined_plot_7_5m_inr_15x_10m.png
+#### 5. RSI and Bollinger Bands (Figure 2):
+- Combines price with Bollinger Bands (top) and RSI (bottom).
+- File: figure2_rsi_bollinger_combined_plot_7_5m_inr_15x_<capital>.png
+- Sample: sample_outputs/figure2_rsi_bollinger_combined_plot_7_5m_inr_15x_10m.png
 
 
 
