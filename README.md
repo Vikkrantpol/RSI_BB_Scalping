@@ -56,14 +56,14 @@ The script generates the following outputs in the rsi_scalping_strategy_outputs/
 ### Plots:
 
 - 1. Equity Curve (Figure 1a):
--- Shows equity growth over time with cumulative trade counts on a secondary axis.
--- File: figure1a_equity_curve_7_5m_inr_15x_<capital>.png
--- Sample: sample_outputs/figure1a_equity_curve_7_5m_inr_15x_10m.png
+- Shows equity growth over time with cumulative trade counts on a secondary axis.
+- File: figure1a_equity_curve_7_5m_inr_15x_<capital>.png
+- Sample: sample_outputs/figure1a_equity_curve_7_5m_inr_15x_10m.png
 
 
-Drawdown (Figure 1b):
-Displays drawdown percentage over time.
-File: figure1b_drawdown_7_5m_inr_15x_<capital>.png
+- 2. Drawdown (Figure 1b):
+- Displays drawdown percentage over time.
+- File: figure1b_drawdown_7_5m_inr_15x_<capital>.png
 
 
 Monthly Performance (Figure 1c):
